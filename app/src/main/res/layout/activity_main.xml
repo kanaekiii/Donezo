@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/round_add_35"
+        app:fabSize="normal"
+        app:elevation="6dp"
+        app:tint="@color/white"
+        app:backgroundTint="#f14a5b"
+        app:maxImageSize="32dp"
+        android:layout_margin="16dp"
+        app:shapeAppearanceOverlay="@style/fab_rounded"
+        android:contentDescription="@string/add_new_task" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

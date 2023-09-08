@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="30dp"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="14dp"
+    android:padding="10dp"
+    android:text="Title"
+    android:id="@+id/detailTitle"
+    android:layout_marginBottom="12dp"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:fontFamily="@font/archivo"
+    android:textColor="#F04A5B"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/baseline_calendar_month_24"
+            android:layout_marginTop="16dp"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Time"
+    android:layout_gravity="center"
+    android:fontFamily="@font/archivo"
+    android:id="@+id/detailTime"
+    android:textSize="20sp"
+    android:textColor="#FFF14A5B"/>
+</LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="Description"
+    android:fontFamily="@font/archivo"
+    android:id="@+id/detailDesc"
+    android:textSize="20sp"
+    android:textColor="#FFF14A5B"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Edit task" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Delete task" />
+
+
+</LinearLayout>

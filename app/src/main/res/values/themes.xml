@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ToDo" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.ToDo" parent="Base.Theme.ToDo" />
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_animation</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_animation</item>
+    </style>
+
+</resources>

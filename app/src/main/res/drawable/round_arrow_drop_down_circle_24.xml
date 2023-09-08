@@ -1,0 +1,19 @@
+<vector
+    android:height="28dp"
+    android:width="28dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Circle -->
+    <path
+        android:fillColor="#C6CBDC"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2z"/>
+
+    <!-- Diagonal lines forming a smaller and centered X inside the circle (rounded corners) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M8,8L16,16M16,8L8,16"/>
+</vector>
