@@ -1,31 +1,56 @@
-# CODSOFT_TASK-01_ToDo
-During my internship at CODSOFT, I had the privilege to work on a dynamic Android To-Do App project. This app is designed to help users manage their tasks, increase productivity, and stay organized seamlessly. It was an incredible learning experience, and I am thrilled to share the codebase and project documentation here.
+# Donezo ✅  
+### Android To-Do App
 
-## Overview
-
-Welcome to the Android To-Do App repository! This open-source project provides a versatile and user-friendly task management solution for Android devices. Whether you're a busy professional, a student, or just someone looking to stay organized, this app will help you keep track of your tasks and boost your productivity.
+Donezo is an Android app designed to help users manage their tasks, increase productivity, and stay organized seamlessly. Whether you're a busy professional, a student, or simply someone looking to stay on top of your to-do list, Donezo is here to make task management effortless.
 
 ## Features
 
-- **Intuitive User Interface**: Our app boasts a clean and intuitive user interface designed to enhance your productivity and make task management a breeze.
+- **Intuitive User Interface**  
+  A clean and user-friendly interface designed to enhance your productivity and simplify task management.
+- **Task Creation and Management**  
+  Easily create, edit, and organize tasks with just a few taps. Assign due dates to stay on top of your to-do list.
+- **Task Reminders**  
+  Set notifications and reminders to ensure you never miss a task deadline.
+- **Quick Task Prioritization**  
+  Mark tasks as high, medium, or low priority to keep track of important items.
 
-- **Task Creation and Management**: Easily create, edit, and organize tasks with just a few taps. Assign due dates to stay on top of your to-do list.
+## Tech Stack
+
+- **Programming Language:** Java (Android SDK)
+- **UI/UX Design:** Figma
+- **Database:** Firebase
+- **Notifications:** Android Notifications API
 
 ## Installation
 
-To get started with the To-Do App, follow these simple steps:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abinaya-raghuraman/donezo.git
+   ```
+2. **Open in Android Studio** and build the project.
+3. **Run the app** on an emulator or a real device.
 
-1. Clone or download the repository to your local machine.
-2. Open the project in Android Studio.
-3. Build and run the app on your Android device or emulator.
+## Usage
+
+1. **Open the app** and start adding tasks.
+2. **Set deadlines, assign priorities, and get notified.**
+3. **Mark tasks as done** when you complete them!
 
 ## Contributing
 
-We welcome contributions from the open-source community to help improve and expand the functionality of this app. Whether you're a developer, designer, or tester, there are many ways you can contribute:
+We welcome contributions from the open-source community to help improve and expand the functionality of this app. Here are a few ways you can contribute:
 
-- Report bugs or suggest enhancements by opening issues.
-- Submit pull requests with code improvements or new features.
-- Help us improve documentation and provide clearer instructions.
-- Spread the word about our app to fellow Android users.
+- **Report bugs or suggest enhancements** by opening issues.
+- **Submit pull requests** with code improvements or new features.
+- **Improve documentation** and provide clearer instructions.
+- **Spread the word** about our app to fellow Android users.
 
-Thank you for choosing the Android To-Do App. We hope it helps you stay organized and accomplish your tasks more efficiently!
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by Abinaya
+
+---
