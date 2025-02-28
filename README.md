@@ -25,7 +25,7 @@ Donezo is an Android app designed to help users manage their tasks, increase pro
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/abinaya-raghuraman/donezo.git
+   git clone https://github.com/kanaekiii/Donezo.git
    ```
 2. **Open in Android Studio** and build the project.
 3. **Run the app** on an emulator or a real device.
